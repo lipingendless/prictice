@@ -1,0 +1,94 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  overflow: hidden; }
+
+.header {
+  height: 0.48rem;
+  background: #393a3f;
+  display: -webkit-flex;
+  padding-top: 0.12rem;
+  padding-bottom: 0.12rem;
+  box-sizing: border-box; }
+  .header .left {
+    padding-left: 0.16rem;
+    padding-right: 0.16rem;
+    border-right: 1px solid #000; }
+    .header .left i {
+      font-size: 0.16rem;
+      color: #fff;
+      margin-top: 0.04rem; }
+  .header .right {
+    -webkit-flex: 1;
+    display: -webkit-flex; }
+    .header .right h1 {
+      -webkit-flex: 1;
+      font-size: 0.18rem;
+      color: #fff;
+      padding-left: 0.12rem;
+      margin-top: 0.03rem; }
+    .header .right i {
+      font-size: 0.22rem;
+      margin-top: 0.01rem;
+      margin-right: 0.2rem;
+      color: #fff; }
+
+.content {
+  -webkit-flex: 1;
+  background: #818d9b;
+  position: relative; }
+  .content .box {
+    width: 94%;
+    height: 74%;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -47%;
+    margin-top: -60%; }
+    .content .box .top {
+      width: 100%;
+      text-align: center;
+      margin-top: 0.67rem;
+      margin-bottom: 0.67rem; }
+      .content .box .top img {
+        width: 1.3rem;
+        height: 0.42rem; }
+      .content .box .top h2 {
+        font-size: 0.16rem;
+        margin-top: 0.1rem;
+        font-weight: bold; }
+    .content .box .form {
+      padding-left: 10%; }
+      .content .box .form p {
+        width: 80%;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        border-bottom: 1px solid #898989;
+        display: -webkit-flex; }
+        .content .box .form p img {
+          width: 0.16rem;
+          height: 0.24rem;
+          margin-left: 0.16rem;
+          margin-right: 0.16rem;
+          margin-top: 0.13rem; }
+        .content .box .form p input {
+          -webkit-flex: 1;
+          border-width: 0;
+          color: #e6e6e6; }
+        .content .box .form p:last-child {
+          border-bottom-width: 0;
+          margin-top: 0.42rem; }
+          .content .box .form p:last-child input {
+            background: #2abd77;
+            border-width: 0;
+            border-radius: 7px;
+            color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
