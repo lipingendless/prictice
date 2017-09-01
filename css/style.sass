@@ -1,0 +1,103 @@
+body
+  font-size: .12rem
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  overflow: hidden
+  background: #f3f3fe
+
+.header
+  height: .54rem
+  border-top: 1px solid #dfdfdf
+  border-bottom: 1px solid #eaeafd
+  background: #fff
+  ul
+    width: 100%
+    height: inherit
+    li
+      width: 33.33333%
+      height: inherit
+      float: left
+      text-align: center
+      span
+        padding-left: .05rem
+        padding-right: .05rem
+        height: .52rem
+        display: inline-block
+        line-height: .52rem
+        font-size: .16rem
+        color: #999
+
+
+.content
+  -webkit-flex: 1
+  background: #fff
+  margin-top: .08rem
+  border-top: 1px solid #eaeafd
+  padding-left: .24rem
+  padding-right: .24rem
+  .small
+    height: 1.1rem
+    border-radius: 5px
+    background: #fd6060
+    box-shadow: 0 2px 3px #ccc
+    margin-top: .12rem
+    margin-bottom: .12rem
+    .top
+      height: .65rem
+      .top-left
+        float: left
+        span
+          color: #fff
+          &:first-child
+            padding-left: .2rem
+            padding-right: .2rem
+            font-size: .24rem
+          &:last-child
+            font-size: .44rem
+
+
+
+      .top-right
+        float: right
+        color: #fff
+        padding-top: .2rem
+        padding-right: .12rem
+        font-size: .24rem
+    .one
+      height: .03rem
+      background: url("../images/banner/one_03.png")
+    .bottom
+      height: .42rem
+      background: #fff
+      padding-left: .14rem
+      box-sizing: border-box
+      padding-top: .05rem
+
+      p
+        color: #5fc89e
+        overflow: hidden
+        text-overflow: ellipsis
+        white-space: nowrap
+        i
+          width: .12rem
+          height: .12rem
+          display: inline-block
+          margin-right: .1rem
+          color: #5fc89e
+        &:last-child
+          color: #999
+
+
+
+
+  
+
+
+.active
+  border-bottom: 1px solid #617ef6
+  color: #617ef6!important
+

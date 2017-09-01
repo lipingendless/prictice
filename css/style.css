@@ -1,0 +1,93 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  overflow: hidden;
+  background: #f3f3fe; }
+
+.header {
+  height: 0.54rem;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #eaeafd;
+  background: #fff; }
+  .header ul {
+    width: 100%;
+    height: inherit; }
+    .header ul li {
+      width: 33.33333%;
+      height: inherit;
+      float: left;
+      text-align: center; }
+      .header ul li span {
+        padding-left: 0.05rem;
+        padding-right: 0.05rem;
+        height: 0.52rem;
+        display: inline-block;
+        line-height: 0.52rem;
+        font-size: 0.16rem;
+        color: #999; }
+
+.content {
+  -webkit-flex: 1;
+  background: #fff;
+  margin-top: 0.08rem;
+  border-top: 1px solid #eaeafd;
+  padding-left: 0.24rem;
+  padding-right: 0.24rem; }
+  .content .small {
+    height: 1.1rem;
+    border-radius: 5px;
+    background: #fd6060;
+    box-shadow: 0 2px 3px #ccc;
+    margin-top: 0.12rem;
+    margin-bottom: 0.12rem; }
+    .content .small .top {
+      height: 0.65rem; }
+      .content .small .top .top-left {
+        float: left; }
+        .content .small .top .top-left span {
+          color: #fff; }
+          .content .small .top .top-left span:first-child {
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+            font-size: 0.24rem; }
+          .content .small .top .top-left span:last-child {
+            font-size: 0.44rem; }
+      .content .small .top .top-right {
+        float: right;
+        color: #fff;
+        padding-top: 0.2rem;
+        padding-right: 0.12rem;
+        font-size: 0.24rem; }
+    .content .small .one {
+      height: 0.03rem;
+      background: url("../images/banner/one_03.png"); }
+    .content .small .bottom {
+      height: 0.42rem;
+      background: #fff;
+      padding-left: 0.14rem;
+      box-sizing: border-box;
+      padding-top: 0.05rem; }
+      .content .small .bottom p {
+        color: #5fc89e;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+        .content .small .bottom p i {
+          width: 0.12rem;
+          height: 0.12rem;
+          display: inline-block;
+          margin-right: 0.1rem;
+          color: #5fc89e; }
+        .content .small .bottom p:last-child {
+          color: #999; }
+
+.active {
+  border-bottom: 1px solid #617ef6;
+  color: #617ef6 !important; }
+
+/*# sourceMappingURL=style.css.map */
